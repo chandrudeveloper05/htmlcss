@@ -1,0 +1,246 @@
+
+.outer {
+    border:28px solid #264653;
+   height: 550px;
+   width: 550px;
+   position: relative;
+   margin: 2em;
+   margin-left:30%;
+   border-radius:1em;
+   background-color: #e9c46a;
+}
+
+.topleft{
+   width: 75px;
+   height: 75px;
+   border-radius:50% ;
+   position: absolute;
+   border: 2px solid #cdb4db ;
+   margin: 3px;
+   background-color: #d4a373;
+}
+ .topright{
+    width: 75px;
+    height: 75px;
+    border-radius:50%;
+    position: absolute;
+    border:2px solid #cdb4db;
+    background-color: #d4a373;
+    margin: 3px;
+    top:0px;
+    right:0px;
+}
+ .bottomleft{
+  width: 75px;
+    height: 75px;
+    border-radius:50%;
+    position: absolute;
+    border:2px solid #cdb4db;
+    background-color: #d4a373;
+    margin: 3px;
+    bottom:0px;
+    left:0px;
+} 
+ .bottomright{
+    width: 75px;
+    height: 75px;
+    border-radius:50%;
+    position: absolute;
+    border:2px solid #cdb4db;
+    background-color: #d4a373;
+    margin: 3px;
+    bottom:0px;
+    right:0px;
+} 
+.center
+{
+   width: 180px;
+   height: 180px;
+   position: absolute;
+   margin: auto;
+   top: 0px;
+   bottom: 0px;
+   left:0px;
+   right:0px;
+   border-radius:50%;
+   border:5px solid #8b5d33;  
+}
+.innercenter{
+   width: 90px;
+   height: 90px;
+   position: absolute;
+   margin: auto;
+   top: 0px;
+   bottom: 0px;
+   left:0px;
+   right:0px;
+   border-radius:50%;
+   border:5px solid #a9714b;  
+}
+.firstcircleone{
+   width: 40px;
+   height:40px;
+   position: absolute;
+   top: -20px;
+   left: 20px;
+   border-radius: 50%;
+   border:5px solid #023047;
+   margin: 100px;
+   background-color: #9c6644;
+}
+.secondcircleone{
+   width: 40px;
+   height:40px;
+   position: absolute;
+   top: -20px;
+   left:290px;
+   border-radius: 50%;
+   border:5px solid #023047;
+   margin: 100px;
+   background-color: #9c6644;
+}
+.thirdcircleone{
+   width:40px;
+   height: 40px;
+   position: absolute;
+   left:-22px;
+   top:280px;
+   border-radius: 50%;
+   border: 5px solid #023047;
+   background-color: #9c6644;
+   margin: 100px;
+
+}
+.fourthcircleone{
+   width: 40px;
+   height:40px;
+   position: absolute;
+   border-radius: 50%;
+   border:5px solid #023047;
+   background-color: #9c6644;
+   margin: 100px;
+   bottom:0;
+   right:-32px;;
+   top:280px;
+}
+
+.firstcircle{
+   width: 40px;
+   height:40px;
+   position: absolute;
+   top: 30px;
+   left:-22px;
+   border-radius: 50%;
+   border:5px solid #023047;
+   margin: 100px;
+   background-color: #9c6644;
+}
+.secondcircle{
+   width: 40px;
+   height:40px;
+   position: absolute;
+   border-radius: 50%;
+   border:5px solid #023047;
+   background-color: #9c6644;
+   margin: 100px;
+   top:30px;
+   right:-33px;
+}
+.thirdcircle{
+   width: 40px;
+   height:40px;
+   position: absolute;
+   border-radius: 50%;
+   border:5px solid #023047;
+   background-color: #9c6644;
+   margin: 100px;
+   left:30px;
+   top:330px;
+}
+.fourthcircle{
+   width: 40px;
+   height:40px;
+   position: absolute;
+   border-radius: 50%;
+   border:5px solid #023047;
+   background-color: #9c6644;
+   margin: 100px;
+   bottom:0;
+   right:10px;
+   top:330px;
+}
+.innercenter{
+   font-family:Arial, Helvetica, sans-serif;
+   font-style:normal;
+   font-weight: bold;
+   font-size: 12px;
+    text-align:center; 
+   color:#6c584c;
+   position: absolute;
+   margin:auto;
+   top: 0px;
+   bottom: 0px;
+   left:0px;
+   right:0px;
+}
+.p1{
+   visibility: hidden;
+}
+ .topfirstline{
+   border-top:6px solid #023047;
+   width: 260px;
+  position: absolute;
+  margin-left: 150px;
+  top:80px; 
+}
+.topsecondline{
+  border-top:4px solid #023047;
+  width: 254px;
+  position: absolute;
+  margin-left: 153px;
+  top:125px;
+}
+.bottomfirstline{
+   border-top:6px solid #023047;
+   width: 245px;
+   position: absolute;
+   margin-left: 162px;
+   top:431px;
+}
+.bottomsecondline{
+   border-top:4px solid #023047;
+   width: 248px;
+   position: absolute;
+   margin-left: 160px;
+   top:475px;
+   
+}
+.rightfirstline{
+  border-left: 6px solid #023047;
+  height: 250px;
+  position: absolute;
+  margin-left: 77px;
+  top:155px; 
+}
+.rightsecondline{
+  border-left: 4px solid #023047;
+  height: 240px;
+  position: absolute;
+  margin-left: 124px;
+  top:160px;
+}
+.leftfirstline{
+   border-right:4px solid #023047;
+   height: 260px;
+   position: absolute;
+   margin: 433px;
+   top:-280px;
+}
+.leftsecondline{
+   border-right:6px solid #023047;
+   height: 245px;
+   position: absolute;
+   margin: 478px;
+   top:-320px; 
+} 
+    
